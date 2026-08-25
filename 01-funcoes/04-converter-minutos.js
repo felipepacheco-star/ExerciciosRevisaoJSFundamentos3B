@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+
+const converterMinutosParaSegundos = function (minutos) {
+  return minutos * 60;
+};
+
+const resultado = converterMinutosParaSegundos(5);
+console.log(`5 minutos equivalem a ${resultado} segundos.`); 

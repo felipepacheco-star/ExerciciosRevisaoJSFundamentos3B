@@ -4,3 +4,12 @@
 //
 // Escreva sua solução abaixo:
 
+const curso = {
+  nome: "Desenvolvimento Web",
+  modalidade: "EAD",
+  descrever: function () {
+    return `O curso de ${this.nome} é oferecido na modalidade ${this.modalidade}.`;
+  }
+};
+
+console.log(curso.descrever());

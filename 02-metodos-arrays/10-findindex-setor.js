@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const setores = ["Vendas", "Financeiro", "TI", "RH"];
+
+const indiceTI = setores.findIndex((setor) => setor === "TI");
+
+console.log(indiceTI);

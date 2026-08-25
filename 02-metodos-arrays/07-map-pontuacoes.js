@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+const pontuacoesOriginais = [20, 35, 40, 55];
+
+const pontuacoesComBonus = pontuacoesOriginais.map((pontuacao) => pontuacao + 5);
+
+console.log("Array original:", pontuacoesOriginais);
+console.log("Novo array com bônus:", pontuacoesComBonus);

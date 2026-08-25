@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+function verificarFrete(valorCompra) {
+  return valorCompra >= 150 ? "Frete grátis" : "Frete pago";
+}
+
+console.log(verificarFrete(150)); 
+console.log(verificarFrete(100)); 

@@ -4,3 +4,7 @@
 //
 // Escreva sua solução abaixo:
 
+const calcularTriplo = (numero) => numero * 3;
+
+const resultado = calcularTriplo(12);
+console.log(`O triplo de 12 é: ${resultado}`); 
