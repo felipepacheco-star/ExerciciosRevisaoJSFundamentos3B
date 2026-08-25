@@ -6,3 +6,18 @@
 //
 // Escreva sua solução abaixo:
 
+const resposta = {
+  status: 200,
+  quantidade: 2,
+  clientes: [
+    { id: 1, nome: "Ana Silva" },
+    { id: 2, nome: "Carlos Souza" }
+  ]
+};
+
+const respostaJSON = JSON.stringify(resposta);
+
+const respostaObjeto = JSON.parse(respostaJSON);
+
+console.log("Status:", respostaObjeto.status);
+console.log("Clientes:", respostaObjeto.clientes);
